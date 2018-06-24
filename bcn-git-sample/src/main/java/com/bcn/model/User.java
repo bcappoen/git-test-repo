@@ -7,6 +7,8 @@ public class User {
 	private String name;
 
 	private String fisrtName;
+	
+	private String mainHobby;
 
 	public User() {
 		// TODO Auto-generated constructor stub
@@ -29,4 +31,8 @@ public class User {
 		this.name = name;
 	}
 
+	public void setMainHobby(String mainHobby) {
+		this.mainHobby = mainHobby;
+	}
+	
 }

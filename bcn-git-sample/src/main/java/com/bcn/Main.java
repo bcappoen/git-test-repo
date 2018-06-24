@@ -13,6 +13,7 @@ public class Main {
 		me.setId(UUID.randomUUID().toString());
 		me.setFisrtName("Bruno");
 		me.setName("Cappoen");
+		me.setMainHobby("DIY");
 		
 		System.out.println(me);
 		
